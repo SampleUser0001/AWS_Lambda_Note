@@ -11,6 +11,7 @@
     - [エンドポイントの作成](#エンドポイントの作成)
     - [デプロイ](#デプロイ)
   - [AWS Lambda と API Gatewayの紐づけ](#aws-lambda-と-api-gatewayの紐づけ)
+  - [実行例](#実行例)
   - [参考](#参考)
 
 ## 使用するサービス
@@ -90,6 +91,16 @@
 1. AWS Lambda → （中略） → 最新の設定タブ
 2. トリガー → トリガーを追加
 3. メニューに出た通りに設定
+
+## 実行例
+
+```
+curl https://z56j1vzusk.execute-api.ap-northeast-1.amazonaws.com/test/SampleFunction?firstname=Satoru&lastname=Tanaka
+```
+
+```json
+{"statusCode": 200, "body": "Hello! Satoru !"}
+```
 
 ## 参考
 
