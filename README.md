@@ -1,6 +1,6 @@
-# AWS_Lambda_Sample_Python
+# AWS_Lambda_Note
 
-- [AWS_Lambda_Sample_Python](#aws_lambda_sample_python)
+- [AWS_Lambda_Note](#aws_lambda_note)
   - [使用するサービス](#使用するサービス)
   - [AWS Lambda](#aws-lambda)
     - [関数の作成](#関数の作成)
